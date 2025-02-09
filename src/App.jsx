@@ -4,7 +4,7 @@ const App = () => {
   const { count, increment, decrement ,clearData} = useHabitsStore()
   return (
     <div>
-      <p>Hello INcrement</p>
+      <p>Hello Increment</p>
       <p>{count}</p>
       <button onClick={increment}>Increment</button>
       <button onClick={decrement}>Decrement</button>
